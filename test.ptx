@@ -1,0 +1,12 @@
+     // test.ptx
+// Define un nuevo personaje llamado "Mage"
+player Mage {
+    stats {
+        health = 75;
+        mana = 150;
+    }
+ 
+    action cast_fireball {
+        use "Fireball Scroll";
+    }
+}
